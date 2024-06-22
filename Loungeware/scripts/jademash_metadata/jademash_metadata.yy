@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"jademash_metadata",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"jademash_metadata",
+  "parent":{
+    "name":"jademash",
+    "path":"folders/Microgames/jademash.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

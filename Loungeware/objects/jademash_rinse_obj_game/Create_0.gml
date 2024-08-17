@@ -13,4 +13,5 @@ bottle6 = bottles[5];
 
 /* set correct choice based on the right prompt */
 
-correctChoice = PROMPT;
+correctChoice = PROMPT == "GRAB HAIRGEL" ? jademash_rinse_spr_hairgel: jademash_rinse_spr_shampoo;
+

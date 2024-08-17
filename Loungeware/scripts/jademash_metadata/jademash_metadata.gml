@@ -6,8 +6,8 @@ microgame_register("jademash_rinse", {
     init_room: jademash_rinse_rm_main,
     view_width: 480,
     view_height: 320,
-    time_seconds: 5,
-    music_track: false,
+    time_seconds: 7,
+    music_track: sng_zandy_careful_whispers,
     music_loops: true, // nullable, defaults to true
     interpolation_on: false,
     cartridge_col_primary: [50, 44, 63],
@@ -15,7 +15,7 @@ microgame_register("jademash_rinse", {
     cartridge_label: johndoe_examplegame_spr_label,
     default_is_fail: true, // nullable, defaults to true
     supports_difficulty_scaling: false,
-    credits: ["Mashmerlow", "Katsaii"],
+    credits: ["mashmerlow", "katsaii", "zandy"],
     date_added:{
 	  day : 25,
 	  month : 8,
@@ -24,6 +24,6 @@ microgame_register("jademash_rinse", {
 	is_enabled: false,
 	supports_html:false,
 	show_on_website: false,
-	description: ["Larold has, for the first time in long while. Will you help him finally finish what he started? Or will you contribute to his downfall..."],
+	description: ["Larold has, decided to take a shower. However, he can't tell which bottles are the right ones! Will you help him finally finish what he started? Or will you contribute to his downfall..."],
 	how_to_play: ["Help Larold by pressing the primary buttons so he can grab the right bottle. Unless, you want a different outcome..."],
 });
